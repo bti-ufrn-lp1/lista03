@@ -83,7 +83,7 @@ Com isso, o executável `banco` resultante da compilação do programa será ger
 ## Boas práticas de programação
 Boas práticas de programação deverão ser constantemente aplicadas no desenvolvimento do programa em questão, o qual deverá ser codificado de forma legível (com indentação de código fonte, nomes consistentes, etc.) e documentado adequadamente na forma de comentários. O código fonte deverá ainda ser anotado para dar suporte à geração automática de documentação utilizando a ferramenta [Doxygen](https://www.doxygen.nl/). O documento de apoio disponível neste [*link*](https://drive.google.com/file/d/1YA1KxASCNY3B8APowD2V0sL-kAso9g86/view) contém algumas instruções acerca do padrão de documentação e uso do Doxygen.
 
-As soluções deverão ser desenvolvidas com qualidade, garantindo que o programa funcione de forma correta e eficiente. Deve-se também pensar nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o programa, além de serem tratadas adequadamente possíveis entradas consideradas inválidas.
+O programa deverá ser desenvolvido com qualidade, garantindo que ele funcione de forma correta e eficiente. Deve-se também pensar nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o programa, além de serem tratadas adequadamente possíveis entradas consideradas inválidas.
 
 ## Autoria e política de colaboração
 Este trabalho poderá ser realizado individualmente ou em equipe composta de dois estudantes, sendo importante, neste último caso, dividir as tarefas igualmente entre os integrantes da equipe. O arquivo [`author.md`](author.md) presente no repositório deverá ser editado preenchendo as informações de identificação dos integrantes da equipe, na seção [Informações de Autoria](author.md#identificação-de-autoria). 
@@ -95,7 +95,7 @@ O sistema de controle de versões [Git](https://git-scm.com) e o serviço de hos
 
 No momento de criação de uma equipe, o GitHub Classroom cria um repositório Git privado acessível unicamente pelos integrantes da equipe e pelo docente, sob a organização [`bti-ufrn-lp1`](https://github.com/bti-ufrn-lp1). Esse repositório segue a mesma estrutura de diretórios presentes neste repositório, o qual serve de *template*. Todos os arquivos deverão constar no repositório obedecendo **estritamente** a divisão em diretórios. A fim de garantir a boa manutenção do repositório, deve-se ainda configurar corretamente o arquivo `.gitignore` para desconsiderar arquivos que não devam ser versionados, a exemplo do diretório `build` e seus arquivos, resultantes do processo de compilação com o `cmake`.
 
-A implementação das soluções para os problemas propostos neste trabalho deverá ser realizada **até as 23h59 do dia 27 de junho de 2022** no respectivo repositório Git da equipe. Para fins de registro, o endereço do repositório também deverá ser enviado através da opção *Tarefas* na Turma Virtual do SIGAA. **Não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.**
+A implementação do programa proposto neste trabalho deverá ser realizada **até as 23h59 do dia 27 de junho de 2022** no respectivo repositório Git da equipe. Para fins de registro, o endereço do repositório também deverá ser enviado através da opção *Tarefas* na Turma Virtual do SIGAA. **Não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.**
 
 ## Avaliação
 
